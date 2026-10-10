@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "dl-research",
+      "type": "spec",
+      "name": "深度学习科研规范（基础）",
+      "description": "面向深度学习科研的通用 spec 骨架：实验日志、路径隔离、可复现性、产物与 checkpoint 管理、评估口径、数据契约。研究方向无关，安装后按方向本地演化。",
+      "path": "marketplace/specs/dl-research",
+      "tags": ["deep-learning", "research", "chinese"]
+    }
+  ]
+}
