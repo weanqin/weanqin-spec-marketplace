@@ -6,10 +6,10 @@
 
 ```bash
 # 新科研项目
-trellis init --registry gh:<GitHub用户名>/spec-marketplace/marketplace --template dl-research
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research
 
 # 已有项目补装（只补缺失文件）
-trellis init --registry gh:<GitHub用户名>/spec-marketplace/marketplace --template dl-research --append
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research --append
 
 # 装配 spec 之外的科研工作流部件（AI 可执行手册）
 # 让项目里的 AI 阅读 docs/bootstrap/bootstrap.md 并执行

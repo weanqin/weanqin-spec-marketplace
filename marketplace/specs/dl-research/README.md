@@ -6,10 +6,10 @@
 
 ```bash
 # 新项目（trellis init 时）
-trellis init --registry gh:<你的GitHub用户名>/spec-marketplace/marketplace --template dl-research
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research
 
 # 已有项目（只补缺失文件，不覆盖本地已有）
-trellis init --registry gh:<你的GitHub用户名>/spec-marketplace/marketplace --template dl-research --append
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research --append
 ```
 
 安装源会被记录，之后 `trellis update` 可从 marketplace 刷新 spec（本地修改会按冲突流程提示）。

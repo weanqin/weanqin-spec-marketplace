@@ -10,9 +10,9 @@
 
 ```bash
 # 新项目
-trellis init --registry gh:<GitHub用户名>/spec-marketplace/marketplace --template dl-research
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research
 # 已有项目（只补缺失文件）
-trellis init --registry gh:<GitHub用户名>/spec-marketplace/marketplace --template dl-research --append
+trellis init --registry gh:weanqin/weanqin-spec-marketplace/marketplace --template dl-research --append
 ```
 
 **验证**：`.trellis/spec/research/index.md` 与 `.trellis/spec/data/index.md` 存在。
